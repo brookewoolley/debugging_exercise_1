@@ -5,7 +5,7 @@ describe CommandLineInterface do
   let(:stdout) { double(:stdout) }
   let(:game) { double(:game) }
 
-  describe "playing a game", focus: true do
+  describe "playing a game" do
     it "plays turns until there's a winner" do
       king = double(:king, symbol: :king)
 
