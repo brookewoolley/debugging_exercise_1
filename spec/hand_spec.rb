@@ -46,7 +46,7 @@ describe Hand do
     end
   end
 
-  describe "#stand" do
+  describe "#stand and #standing?" do
     it "sets to standing" do
       card_list = double(:card_list, scores: [])
       subject = described_class.new(card_list)
