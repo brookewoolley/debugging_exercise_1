@@ -12,7 +12,7 @@ describe Players do
   describe "#name" do
     let (:hand) { double(:hand) }
 
-    it "returs the index (name) of the passed hand" do
+    it "returns the index (name) of the passed hand" do
       expect(hands).to receive(:find_index).with(hand)
 
       expect { described_class.new(hands).name(hand) }
