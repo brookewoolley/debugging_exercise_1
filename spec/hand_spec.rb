@@ -57,6 +57,20 @@ describe Hand do
     end
   end
 
+  describe "#bust?" do
+    it "reports false when score not over 21" do
+      card_list = double(:card_list, scores: [])
+      subject = described_class.new(card_list)
+      expect(subject.bust?).to be(false)
+    end
+
+    it "reports true when score over 21" do
+      card_list = double(:card_list, scores: [[10], [10], [10]])
+      subject = described_class.new(card_list)
+      expect(subject.bust?).to be(true)
+    end
+  end
+
   describe "#score" do
     it "reports score for hand without aces" do
       card_list = double(:card_list, scores: [[10], [10]])
