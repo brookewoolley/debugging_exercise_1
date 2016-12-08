@@ -4,7 +4,7 @@ You can use this exercise to practice and assess your debugging skill.
 
 ## Instructions
 
-The goal is to get all the tests in the `spec/` directory passing.
+The goal is to get all the tests in the `spec/` directory passing.  You can assume the tests correctly specify the desired behaviour.
 
 1. Fork this repo.
 
@@ -23,8 +23,6 @@ The goal is to get all the tests in the `spec/` directory passing.
 8. Make a pull request to this repo to submit your solution to the exercise.
 
 ## Notes
-
-* You can assume the tests correctly specify the desired behaviour.
 
 * Don't change the files in the `.spec_verify/` directory.
 
