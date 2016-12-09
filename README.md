@@ -20,7 +20,7 @@ The goal is to get all the tests in the `spec/` directory passing.  You can assu
 
 7. To check that your debugged code will be assessed as correctly debugged by Travis, run `rake verify`.  This runs a clean version of the tests.  If all these tests pass, you've successfully debugged the repo.
 
-8. Make a pull request to this repo to submit your solution to the exercise.
+8. Make a pull request to this repo to submit your solution.
 
 ## Notes
 
