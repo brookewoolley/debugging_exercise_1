@@ -1,6 +1,6 @@
 # Debugging practice
 
-You can use this exercise to practice and assess your debugging skill.
+You can use this exercise to practice debugging.
 
 Take a couple of minutes to read this README thoroughly before you start.
 
@@ -22,9 +22,13 @@ The goal is to get all the tests in the `spec/` directory passing.
 
 6. To check that your debugged code will be assessed as correctly debugged by Travis, run `rake verify`.  This runs a clean version of the tests.  If all these tests pass, you've successfully debugged the repo.
 
-7. Make a pull request to this repo to submit your solution.
+7. After an hour, please make a pull request to this repo to submit your solution.  Seeing your code helps us figure out what parts of the course can be improved.
+
+8. If you want to, feel free to keep on working on this exercise after today's session is over!
 
 ## Notes
+
+* You'll work alone on this exercise, like on the weekend challenges.  Just like the weekend challenges, feel free to post in Slack with questions!
 
 * Don't change the files in the `.spec_verify/` directory.
 
