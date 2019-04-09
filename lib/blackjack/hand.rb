@@ -11,8 +11,8 @@ class Hand
   end
 
   def hit(card_class=Card)
+    raise "You're bust" if bust?
     raise "You're standing" if standing?
-    raise "You're bust" if standing?
     card_list.add(card_class.random)
   end
 
