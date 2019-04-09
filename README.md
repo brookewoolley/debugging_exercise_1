@@ -1,3 +1,7 @@
+To practice my debugging.  Please see commits.
+
+Makers notes:
+
 # Debugging practice
 
 You can use this exercise to practice debugging.
